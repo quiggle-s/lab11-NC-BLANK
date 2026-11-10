@@ -25,10 +25,10 @@ def add(a, b):
 def subtract(a, b): 
     return a - b
 
-def mult(a, b): 
+def multiply(a, b): 
     return a * b
 
-def div(a, b): 
+def divide(a, b): 
     try:
         return a / b
     except ZeroDivisionError:
@@ -40,5 +40,5 @@ def logarithm(a, b):
     except (ValueError, TypeError):
         raise ValueError("Invalid input for logarithm")
 
-def exp(a, b):
+def exponent(a, b):
     return a ** b
