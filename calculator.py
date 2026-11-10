@@ -1,3 +1,7 @@
+#https://github.com/quiggle-s/lab11-NC-BLANK
+#Partner 1: Nicholas Chea
+#Partner 2: None
+
 """
 calculator.py
 - Defines functions used to create a simple calculator

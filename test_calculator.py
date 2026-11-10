@@ -1,9 +1,14 @@
+#https://github.com/quiggle-s/lab11-NC-BLANK
+#Partner 1: Nicholas Chea
+#Partner 2: None
+
+
 import unittest
 from calculator import *
 
 class TestCalculator(unittest.TestCase):
     ######### Partner 2
-     def test_add(self): # 3 assertions
+    def test_add(self): # 3 assertions
          self.assertEqual(add(2, 3), 5)
          self.assertEqual(add(-1, 1), 0)
          self.assertEqual(add(0, 0), 0)
