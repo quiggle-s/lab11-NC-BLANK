@@ -25,6 +25,26 @@ def add(a, b):
 def subtract(a, b): 
     return a - b
 
+def sub(a, b): 
+    return a - b
+
+def mul(a, b): 
+    return a * b
+
+def div(a, b): 
+    if a == 0:
+        raise ValueError("Cannot divide by zero")
+    return b / a # raise ZeroDivisionError if a == 0
+
+def log(a, b): 
+    try:
+        return math.log(b, a)
+    except (ValueError, TypeError):
+        raise ValueError("Invalid input for logarithm")
+
+def exp(a, b): 
+    return a ** b
+
 def multiply(a, b): 
     return a * b
 
